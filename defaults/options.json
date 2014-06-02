@@ -1,7 +1,6 @@
 {
     "CACHE_HASH_ALGORITHM": "sha1",
     "STACK": "lucid",
-    "DOWNLOAD_URL": "https://dl.dropboxusercontent.com/u/186123235/binaries/{STACK}",
     "WEB_SERVER": "httpd",
     "PHP_VM": "php",
     "ADMIN_EMAIL": "admin@localhost",
@@ -26,7 +25,6 @@
     "PHP_55_LATEST": "5.5.13",
     "PHP_VERSION": "{PHP_54_LATEST}",
     "PHP_PACKAGE": "php-{PHP_VERSION}.tar.gz",
-    "PHP_DOWNLOAD_URL": "{DOWNLOAD_URL}/php/{PHP_VERSION}/{PHP_PACKAGE}",
     "PHP_STRIP": "true",
     "PHP_MODULES_PATTERN": "{DOWNLOAD_URL}/php/{PHP_VERSION}/php-{MODULE_NAME}-{PHP_VERSION}.tar.gz",
     "PHP_MODULES_STRIP": "true",
